@@ -27,5 +27,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleParts
 
+# Face Unlock
+PRODUCT_PACKAGES += \
+    FaceEnrollOverlay \
+    FaceEnrollSettingsOverlay
+
 # Touch
 include hardware/google/pixel/touch/device.mk
