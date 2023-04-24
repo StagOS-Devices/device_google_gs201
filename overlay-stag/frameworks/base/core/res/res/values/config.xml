@@ -61,7 +61,6 @@
     <string name="config_systemUiIntelligence">com.google.android.as</string>
     <string name="config_systemVisualIntelligence">com.google.android.as</string>
 
-
     <!-- Whether device has screen with higher aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
 
@@ -72,4 +71,8 @@
         <item>restart_fastboot</item>
         <item>restart_bootloader</item>
     </string-array>
+
+    <!-- IWLAN-->
+    <string name="config_qualified_networks_service_package">com.android.qns</string>
+
 </resources>
